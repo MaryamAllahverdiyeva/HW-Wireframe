@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(114, 113, 113);
+}
+div{
+    border:1px solid white;
+    box-sizing: border-box;
+}
+.container{
+    top:0px;
+    margin: 0px auto;
+    width: 80%;
+    background-color: rgb(114, 113, 113);
+    border: none;
+}
+
+.header, .nav,.footer {
+background-color:white;
+height: 100px;
+}
+.section{
+    margin-right:1%;
+    width: 59%;
+    float: left;
+    background-color:white;
+    height: 230px;
+}
+.aside{
+  width: 40%;
+  height:230px;
+   display:inline-block;
+   background-color:white;   
+}
+.article{
+    margin: 5px 10px;
+    background-color: rgb(114, 113, 113);
+}
+.header, .nav,.footer,.section, .aside{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.h, .p{
+    height: 60px;
+    margin: 5px 10px;
+    background-color: white;
+}
+p{
+    margin:0px;
+    text-align:center;
+    color:rgb(114, 113, 113);
+}
+.section >p{    
+    padding:10px;   
+    font-size:18px;
+}
+
+.article>p{
+    padding:9px;    
+    font-size:18px;
+    color:white;
+    
+}
+.h>p, .p>p{
+    padding:  20px;
+    
+}
+
+.h>p{
+   font-weight:bold;
+}
+.nav>p, footer>p{
+ padding:35px;
+ font-size:18px;
+}
+.aside>p{
+    padding: 10px;
+    font-size:18px;
+}
+h1{
+    font-weight: unset;
+    color: rgb(114, 113, 113);
+    text-align:center;
+    font-size:18px;
+    padding: 23px;
+}
